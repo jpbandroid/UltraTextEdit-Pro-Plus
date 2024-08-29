@@ -21,6 +21,7 @@
     <WindowsPackageType>None</WindowsPackageType>
     <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
     <SelfContained>true</SelfContained>
+    <WindowsSdkPackageVersion>10.0.22621.38</WindowsSdkPackageVersion>
   </PropertyGroup>
   <ItemGroup>
     <None Include="Assets\**\*">
@@ -46,7 +47,8 @@
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.WinUI.Controls.Segmented" Version="8.1.240821" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.1" />
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.5.240802000" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.6.240821007-preview2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="WinUICommunity.Components" Version="6.9.0" />
     <PackageReference Include="WinUICommunity.Core" Version="6.9.0" />
     <PackageReference Include="WinUICommunity.LandingPages" Version="6.9.0" />
