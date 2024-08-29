@@ -22,9 +22,13 @@
                 <AutoSuggestBox PlaceholderText="Search" QueryIcon="Find" />
             </wuc:TitleBar.Content>
         </wuc:TitleBar>
-        <StackPanel Grid.Row="1">
-            
-        </StackPanel>
+        <RelativePanel Grid.Row="1">
+            <RichEditBox x:Name="editor"
+RelativePanel.AlignLeftWithPanel="True"
+RelativePanel.AlignRightWithPanel="True"
+                         RelativePanel.AlignBottomWithPanel="True"
+                         RelativePanel.AlignTopWithPanel="True"/>
+        </RelativePanel>
     </Grid>
 </Page>
 
