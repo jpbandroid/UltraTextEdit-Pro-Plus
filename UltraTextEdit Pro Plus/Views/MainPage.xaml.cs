@@ -46,7 +46,7 @@ public sealed partial class MainPage : Page
     private void EditTab_Click(object sender, RoutedEventArgs e)
     {
         EditRibbon.Visibility = Visibility.Visible;
-        //InsertCmdBar.Visibility = Visibility.Collapsed;
+        InsertRibbon.Visibility = Visibility.Collapsed;
         //ViewCmdBar.Visibility = Visibility.Collapsed;
         EditButton.IsChecked = true;
         InsertButton.IsChecked = false;
@@ -55,7 +55,12 @@ public sealed partial class MainPage : Page
 
     private void InsertTab_Click(object sender, RoutedEventArgs e)
     {
-
+        EditRibbon.Visibility = Visibility.Collapsed;
+        InsertRibbon.Visibility = Visibility.Visible;
+        //ViewCmdBar.Visibility = Visibility.Collapsed;
+        EditButton.IsChecked = false;
+        InsertButton.IsChecked = true;
+        TextBoxViewButton.IsChecked = false;
     }
 
     private void ViewTab_Click(object sender, RoutedEventArgs e)
@@ -274,6 +279,56 @@ public sealed partial class MainPage : Page
     }
 
     private void MenuFlyoutFontSize_Click(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void Image_Insert_Click(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void LinkInsert_Click(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void InsertLink(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void DeleteLink(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void CancelLink(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void DefaultTimeFormat(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void MMDDTimeFormat(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void DDMMTimeFormat(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void MMDDnoYYTimeFormat(object sender, RoutedEventArgs e)
+    {
+
+    }
+
+    private void DDMMnoYYTimeFormat(object sender, RoutedEventArgs e)
     {
 
     }
