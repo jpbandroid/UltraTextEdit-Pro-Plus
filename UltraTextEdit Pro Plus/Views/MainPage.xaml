@@ -3472,7 +3472,7 @@
             <Grid x:Name="TopMid" RelativePanel.Below="Top" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True">
                 <Border x:Name="Border" VerticalAlignment="Top" MinHeight="105">
                     <Grid>
-                        <CommunityToolkit:Ribbon>
+                        <CommunityToolkit:Ribbon x:Name="EditRibbon">
                             <CommunityToolkit:RibbonGroup Label="Clipboard" Style="{StaticResource RibbonLeftGroupStyle}">
                                 <Grid HorizontalAlignment="Left">
                                     <Button x:Name="PasteButton" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="35" Height="35" VerticalAlignment="Top" Click="Paste_Click" FontFamily="{StaticResource SymbolThemeFontFamily}" FontSize="40" ToolTipService.ToolTip="Paste" CornerRadius="4,4,4,4" BorderBrush="{x:Null}" Background="{x:Null}" Margin="20,20,0,0" HorizontalAlignment="Left" Style="{StaticResource ToolbarButton}" Padding="0,0,0,0">

@@ -45,7 +45,12 @@ public sealed partial class MainPage : Page
 
     private void EditTab_Click(object sender, RoutedEventArgs e)
     {
-
+        EditRibbon.Visibility = Visibility.Visible;
+        //InsertCmdBar.Visibility = Visibility.Collapsed;
+        //ViewCmdBar.Visibility = Visibility.Collapsed;
+        EditButton.IsChecked = true;
+        InsertButton.IsChecked = false;
+        TextBoxViewButton.IsChecked = false;
     }
 
     private void InsertTab_Click(object sender, RoutedEventArgs e)
@@ -273,4 +278,3 @@ public sealed partial class MainPage : Page
 
     }
 }
-
