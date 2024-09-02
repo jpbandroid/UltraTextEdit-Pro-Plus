@@ -3470,9 +3470,9 @@
                 </StackPanel>
             </Grid>
             <Grid x:Name="TopMid" RelativePanel.Below="Top" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True">
-                <Border x:Name="Border" VerticalAlignment="Top" BorderBrush="{StaticResource CardStrokeColorDefaultBrush}" BorderThickness="0,1,0,1" MinHeight="105" CornerRadius="8" Padding="8">
+                <Border x:Name="Border" VerticalAlignment="Top" MinHeight="105">
                     <Grid>
-                        <CommunityToolkit:Ribbon CornerRadius="8">
+                        <CommunityToolkit:Ribbon>
                             <CommunityToolkit:RibbonGroup Label="Clipboard" Style="{StaticResource RibbonLeftGroupStyle}">
                                 <Grid HorizontalAlignment="Left">
                                     <Button x:Name="PasteButton" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="35" Height="35" VerticalAlignment="Top" Click="Paste_Click" FontFamily="{StaticResource SymbolThemeFontFamily}" FontSize="40" ToolTipService.ToolTip="Paste" CornerRadius="4,4,4,4" BorderBrush="{x:Null}" Background="{x:Null}" Margin="20,20,0,0" HorizontalAlignment="Left" Style="{StaticResource ToolbarButton}" Padding="0,0,0,0">
