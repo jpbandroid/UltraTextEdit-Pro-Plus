@@ -10,6 +10,7 @@
                 <ResourceDictionary Source="ms-appx:///WinUICommunity.Components/Themes/Generic.xaml" />
                 <ResourceDictionary Source="ms-appx:///WinUICommunity.LandingPages/Themes/Generic.xaml" />
                 <ResourceDictionary Source="ms-appx:///WinUICommunity.Win2D/Themes/Generic.xaml" />
+                <ResourceDictionary Source="ms-appx:///CommunityToolkit.WinUI.Controls.Ribbon/RibbonStyle.xaml" />
                 <ItemTemplates xmlns="using:WinUICommunity"/>
             </ResourceDictionary.MergedDictionaries>
             <!--  Other app resources here  -->
