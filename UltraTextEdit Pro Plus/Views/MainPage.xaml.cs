@@ -5,6 +5,12 @@ public sealed partial class MainPage : Page
     public MainPage()
     {
         this.InitializeComponent();
+        EditRibbon.Visibility = Visibility.Visible;
+        InsertRibbon.Visibility = Visibility.Collapsed;
+        //ViewCmdBar.Visibility = Visibility.Collapsed;
+        EditButton.IsChecked = true;
+        InsertButton.IsChecked = false;
+        TextBoxViewButton.IsChecked = false;
         appTitleBar.Window = App.CurrentWindow;
     }
 
