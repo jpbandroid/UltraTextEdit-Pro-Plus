@@ -3440,7 +3440,7 @@
                     </Button>
                     <ToggleButton x:Name="EditButton" Content="RibbonEdit}" Background="#00000000" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Height="32" Click="EditTab_Click" Style="{StaticResource CrimsonToolbarToggleButton}" Padding="11,6,11,4"/>
                     <ToggleButton x:Name="InsertButton" Content="RibbonInsert}" Background="#00000000" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Height="32" Click="InsertTab_Click" Style="{StaticResource CrimsonToolbarToggleButton}" Padding="11,6,11,4"/>
-                    <ToggleButton x:Name="TextBoxViewButton" Content="View" Background="#00000000" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Height="32" Click="ViewTab_Click" Style="{StaticResource CrimsonToolbarToggleButton}" Padding="11,6,11,4"/>
+                    <!--<ToggleButton x:Name="ViewButton" Content="View" Background="#00000000" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Height="32" Click="ViewTab_Click" Style="{StaticResource CrimsonToolbarToggleButton}" Padding="11,6,11,4"/>-->
                     <MenuBar x:Name="FullToolbar" Margin="-4,0,0,0">
 
                         <MenuBarItem Title="RibbonTools}" Style="{StaticResource CrimsonMenuBarItem}" Height="32">
