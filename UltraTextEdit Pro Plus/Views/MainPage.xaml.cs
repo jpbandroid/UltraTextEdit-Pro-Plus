@@ -10,7 +10,7 @@ public sealed partial class MainPage : Page
         //ViewCmdBar.Visibility = Visibility.Collapsed;
         EditButton.IsChecked = true;
         InsertButton.IsChecked = false;
-        TextBoxViewButton.IsChecked = false;
+        //TextBoxViewButton.IsChecked = false;
         appTitleBar.Window = App.CurrentWindow;
     }
 
@@ -56,7 +56,7 @@ public sealed partial class MainPage : Page
         //ViewCmdBar.Visibility = Visibility.Collapsed;
         EditButton.IsChecked = true;
         InsertButton.IsChecked = false;
-        TextBoxViewButton.IsChecked = false;
+        //TextBoxViewButton.IsChecked = false;
     }
 
     private void InsertTab_Click(object sender, RoutedEventArgs e)
@@ -66,7 +66,7 @@ public sealed partial class MainPage : Page
         //ViewCmdBar.Visibility = Visibility.Collapsed;
         EditButton.IsChecked = false;
         InsertButton.IsChecked = true;
-        TextBoxViewButton.IsChecked = false;
+        //TextBoxViewButton.IsChecked = false;
     }
 
     private void ViewTab_Click(object sender, RoutedEventArgs e)
